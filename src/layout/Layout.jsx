@@ -2,7 +2,7 @@ import React from 'react';
 
 const Layout = ({children}) => {
     return (
-        <div className="wrapper p-11">
+        <div className="wrapper p-11 bg-white rounded-[20px] max-w-[1080px] mx-auto my-[50px] shadow-xl">
             <header className="flex justify-between mb-11">
                 <div className="headerLeft flex justify-between items-center">
                     <img className="mr-5" width={40} height={40} src="/img/logo.png" alt="Логотип"/>
